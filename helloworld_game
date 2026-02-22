@@ -2,7 +2,7 @@ import arcade
 
 WIDTH = 600
 HEIGHT = 400
-TITLE = "Hallo World"
+TITLE = "Hello World"
 
 
 class MyGame(arcade.Window):
@@ -16,7 +16,7 @@ class MyGame(arcade.Window):
     def on_draw(self):
         self.clear()  
         arcade.draw_text(
-            "Hallo World!",
+            "Hello World!",
             self.text_x,
             self.text_y,
             arcade.color.AQUA,
